@@ -15,7 +15,7 @@
         android:paddingBottom="16dip"
         />
     
-    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    <RelativeLayout
         android:orientation="vertical"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -89,7 +89,7 @@
             android:typeface="monospace"
             />
     </ScrollView>
-    
+   
 	<ListView
 	      android:id="@+id/table_data_list2_value"
           android:layout_width="match_parent"
